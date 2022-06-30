@@ -1,0 +1,12 @@
+{
+  "realm": "myrealm",
+  "auth-server-url": "http://localhost:8080/auth/",
+  "ssl-required": "external",
+  "resource": "demo_webapp_war",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "BQPInYDbPzu6C5cFGXHIRa0BKiQjfLru"
+  },
+  "use-resource-role-mappings": false,
+  "confidential-port": 0
+}
